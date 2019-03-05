@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "1011680920186",
+    "firebase_url": "https://srijan-4931c.firebaseio.com",
+    "project_id": "srijan-4931c",
+    "storage_bucket": "srijan-4931c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011680920186:android:31feeb57a63343ec",
+        "android_client_info": {
+          "package_name": "com.example.android.set"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011680920186-2m5ep77div2hn9d2nvcvsiietn390i8h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJmA9baL02xDY1sfLUT56Ww4zSPgUKEDo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011680920186:android:91d5eb0dc8511417",
+        "android_client_info": {
+          "package_name": "org.srijaniitism.android.srijanorganiser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011680920186-2m5ep77div2hn9d2nvcvsiietn390i8h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJmA9baL02xDY1sfLUT56Ww4zSPgUKEDo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

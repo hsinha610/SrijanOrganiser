@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:id="@+id/main_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_check_black_24dp"
+        app:layout_anchor="@id/lv"
+        app:backgroundTint="@color/colorPrimary"
+        app:layout_anchorGravity="bottom|right|end"/>
+
+<android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="6dp"
+    android:paddingLeft="6dp">
+
+    <LinearLayout
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        tools:padding="16dp"
+        tools:ignore="DuplicateIds">
+
+
+
+        <TextView
+            android:id="@+id/place"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="PLACE" />
+
+        <EditText
+            android:id="@+id/editPlace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="PLACE OF EVENT"
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="DATE" />
+
+        <EditText
+            android:id="@+id/editDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="DATE"
+            android:inputType="date"
+            android:scrollbars="vertical" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:descendantFocusability="blocksDescendants"
+            android:focusableInTouchMode="false"
+            android:text="TIME"
+            tools:background="@color/colorPrimaryDark" />
+
+        <EditText
+            android:id="@+id/editTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:descendantFocusability="blocksDescendants"
+            android:ems="10"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+
+            android:hint="TIME OF EVENT"
+            android:scrollbars="vertical"
+
+            android:textSize="18sp"
+            android:timePickerMode="spinner" />
+
+        <TextView
+            android:id="@+id/about"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="ABOUT" />
+
+        <EditText
+            android:id="@+id/editAbout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="DESCRIPTION OF THE EVENT"
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical"
+            android:singleLine="false" />
+
+        <TextView
+            android:id="@+id/rules"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="RULES" />
+
+        <EditText
+            android:id="@+id/editRules"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:ems="10"
+            android:hint="GENERAL RULES OF THE EVENT"
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical" />
+
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="CONTACT" />
+
+        <EditText
+            android:id="@+id/editContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:ems="10"
+            android:hint="ORGANIZERS CONTACT"
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical" />
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>
