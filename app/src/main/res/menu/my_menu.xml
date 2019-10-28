@@ -8,7 +8,7 @@
     android:id="@+id/write"
     android:title=""
     app:showAsAction="always"
-    android:icon="@drawable/upload"
+    android:icon="@drawable/upload" //uploading option
     />
 
     <item
